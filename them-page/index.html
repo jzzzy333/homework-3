@@ -3,25 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-  <link rel="stylesheet" href="css/courses.css">
+  <title>我推荐的云大食堂食物</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="nav-wrap">
-      <a class="logo" href="#">我推荐的云大食堂食物</a>
-      <nav class="main-nav">
-        <a href="#foods">全部食物</a>
-        <a href="#about">关于</a>
-      </nav>
+    <div class="container">
+      <div class="nav-wrap">
+        <a class="logo" href="#">我推荐的云大食堂食物</a>
+        <nav class="main-nav">
+          <a href="#foods">全部食物</a>
+          <a href="#about">关于</a>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
     <section id="foods">
-      <h2>全部食物</h2> 
-      <div class="card-grid">  
-        
-      </div>    
+      <div class="container">
+        <h2 class="mb-3">全部食物</h2>
+        <div class="row g-3">
+          <div class="col-12 col-sm-6 col-md-4">
+            <article class="food-card">
+             <h3>推荐食物1</h3>
+             <p>楠苑食堂一楼贵阳水煮菜（就是得快点吃，不然肉会在砂锅里闷老）</p>
+             <a href="#">查看详情</a>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <article class="food-card">
+             <h3>推荐食物2</h3>
+             <p>楠苑食堂二楼硕阳小吃（辣子鸡有锅气）</p>
+             <a href="#">查看详情</a>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <article class="food-card">
+             <h3>推荐食物3</h3>
+             <p>楠苑食堂三楼承包食堂（菜价普遍比一楼贵，但胜在人少排队快）</p>
+             <a href="#">查看详情</a>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <article class="food-card">
+             <h3>推荐食物4</h3>
+             <p>梓园食堂一楼承包食堂（便宜又好吃）</p>
+             <a href="#">查看详情</a>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <article class="food-card">
+             <h3>推荐食物5</h3>
+             <p>梓园食堂二楼小锅猪肚鸡</p>
+             <a href="#">查看详情</a>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <article class="food-card">
+             <h3>推荐食物6</h3>
+             <p>梓园食堂二楼傣味菠萝饭</p>
+             <a href="#">查看详情</a>
+            </article>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
   <footer><p>个人口味-仅供参考</p></footer>
